@@ -8,6 +8,15 @@
 	<link rel="stylesheet" href="CSS/style.css">
 	<link rel="stylesheet" href="CSS/bootstrap.min.css">
 	<link rel="icon" href="Images/icon.png">
+	<style>
+		body{
+			overflow-x: hidden;
+
+  			overflow-y: scroll;
+
+		}
+
+	</style>
 </head>
 <body>
 
@@ -161,26 +170,21 @@
 <div class="container-fluid">
 
 	<div class="parallax2 text-center">
+
 		<div class="row">
-			<div class="col-1"></div>
-			<div class="col-4">
-				<img src="Images/pexels-photo-91224.jpeg" class="img-fluid">
-				
-			</div>
-			<div class="col-1"></div>
-			<div class="col-5">
-				<h2>Travel to the World</h2>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dolore eligendi consectetur.</p>
-			
-			<div class="row">
-				<div class="col-6">
-					<button type="button" class="btn1 btn btn-secondary px-4">Follow</button>
+				<div class="col-5">
+
+				<div class="row">
+					<div class="col-6">
+							<!-- button -->
+					</div>
+
+					<div class="col-6">
+						<!-- button -->
+					</div>
+
 				</div>
-				<div class="col-6">
-				<button type="button" class="btn2 btn btn-secondary px-3">Read More...</button>
 				</div>
-			</div>
-			</div>
 		</div>
 	</div>
 </div>
@@ -205,27 +209,31 @@
 		</div>
 
 		<div class="container-fluid footer">
-			<div class="row text-center mt-5">
+			<div class="row mt-5">
+				<div class="col col-4 text-center">
+					<img src="Images/Curcles.png" class="img-fluid">
+					<h1 class="count"> <span class="text-center">91% </span></h1>
+					<h2 class="mt-4 text-center">Design</h2>
+				</div>
+
+					<div class="col col-4 text-center">
+					<img src="Images/Curcles.png" class="img-fluid">
+					<h1 class="count"> <span class="text-center">86% </span></h1>
+					<h2 class="mt-4 text-center">Flexbility</h2>
+				</div>
+				
 				<div class="col col-3 text-center">
 					<img src="Images/Curcles.png" class="img-fluid">
-					<h1 class="count">91%</h1>
-					<h2 class="mt-4">Design</h2>
+					<h1 class="count"> <span class="text-center">96% </span></h1>
+					<h2 class="mt-4 text-center text-dark">Responsive Rate</h2>
 				</div>
-				<div class="col-4 cols3">
-					<img src="Images/Curcles.png" class="img-fluid">
-					<h1 class="count">86%</h1>
-					<h2 class="mt-4">Flexibility</h2>
-				</div>
-				<div class="col-4 cols3">
-					<img src="Images/Curcles.png" class="img-fluid">
-					<h1 class="count">96%</h1>
-					<h2 class="mt-4">Responsive Rate</h2>
-				</div>
+
+				
 			</div>
-			<div class="rights">
-				<h3> 2018 @ Daily Tuition </h3>
-			</div>
+			
+	
 		</div>
+	
 	</div>
 <!-- our objectives end-->
 
@@ -243,17 +251,14 @@
 	<!-- Scroll Reveal Library-->
 	
 	<script src="JS/scrollreveal.min.js"></script>
-<script>
+		<script>
 		window.sr = ScrollReveal();
 		sr.reveal('.container',{duration:1000});
 		sr.reveal('.container-fluid',{duration:1000});
 		sr.reveal('.row',{duration:1000});
 		sr.reveal('.cols3',{duration:1000});
-	</script>
 
-
-
-
+</script>
 
 </body>
 </html>
